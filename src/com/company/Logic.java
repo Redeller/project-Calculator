@@ -25,7 +25,7 @@ public class Logic {
         }
 
         int result = signs(arrayOfElements[1],a,b);
-        if(result < 0){
+        if(result < 0 && count==2){
             throw new Exception("в римской системе нет отрицательных чисел");
         }
 
